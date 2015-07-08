@@ -47,12 +47,12 @@ function init_masonry(){
 
 
 /* google maps */
-var myLatlng = new google.maps.LatLng(38.9928411,-76.937776);
+var myLatlng = new google.maps.LatLng(42.3616384,-71.0906687);
 
 var mapInitOpts = {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     center: myLatlng,
-    zoom: 18
+    zoom: 17
 };
 
 var map = new google.maps.Map(document.getElementById("my-location"), mapInitOpts);

@@ -60,6 +60,15 @@
     margin-left: 80px;
 }
 
+.mit-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #993333;
+    line-height: 110%;
+}
+
+
 .my-publication {
     font-size: 11px;
     font-weight: 400;
