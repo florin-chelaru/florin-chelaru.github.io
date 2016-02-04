@@ -62,10 +62,11 @@
 
 .mit-logo {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
     color: #993333;
     line-height: 110%;
+    margin-left: 10px!important;
 }
 
 
