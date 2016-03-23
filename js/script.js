@@ -6,11 +6,12 @@ $(document).ready(function(){
     init_masonry();
 
     window.setTimeout(function() {
-
         $(window).trigger('resize');
-    
     }, 1000);
 
+    var $ad = $('.twinfog-ad');
+    var $video = $('.twinfog-video');
+    $video.height($ad.height() + 30); // 30 = 50px (padding for twinfog-ad) - 20px (padding for twinfog-video)
 });
 
 
